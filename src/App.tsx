@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './App.module.css';
-import powerdImage from './assets/powered.png';
+import poweredImage from './assets/powered.png';
 import leftArrowImage from './assets/leftarrow.png';
 import { GridItem } from './components/GridItem';
 
@@ -28,7 +28,7 @@ const App = () => {
         <div className={styles.main}>
             <header>
                 <div className={styles.headerContainer}>
-                    <img src={powerdImage} alt="" width={150} />
+                    <img src={poweredImage} alt="" width={150} />
                 </div>
             </header>
             <div className={styles.container}>
